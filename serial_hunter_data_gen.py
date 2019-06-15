@@ -1355,14 +1355,14 @@ else:
       writer.writerow(nsa)
   csv_file.close()
 
-#  generate_sparse_head_heavy_tail_heavy_ooo_mid_combo_for_bin_class(2, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=SINGLE_SAMPLE_SIZE_50/2)
+  generate_sparse_head_heavy_tail_heavy_ooo_mid_combo_for_bin_class(2, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=SINGLE_SAMPLE_SIZE_50/2)
   generate_sparse_head_heavy_tail_heavy_ooo_mid_combo_for_bin_class(170, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=SINGLE_SAMPLE_SIZE_50/2)
-#  generate_sparse_head_heavy_tail_heavy_ooo_mid_combo_for_bin_class(500, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=SINGLE_SAMPLE_SIZE_50/2)
-#  generate_sparse_head_heavy_tail_heavy_ooo_mid_combo_for_bin_class(850, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=SINGLE_SAMPLE_SIZE_50/2)
+  generate_sparse_head_heavy_tail_heavy_ooo_mid_combo_for_bin_class(500, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=SINGLE_SAMPLE_SIZE_50/2)
+  generate_sparse_head_heavy_tail_heavy_ooo_mid_combo_for_bin_class(850, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=SINGLE_SAMPLE_SIZE_50/2)
 
-#  generate_sparse_head_heavy_tail_heavy_ooo_mid_for_multi_class(500, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=None)
-#  generate_sparse_head_heavy_tail_heavy_ooo_mid_for_multi_class(2500, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=None)
-#  generate_sparse_head_heavy_tail_heavy_ooo_mid_for_multi_class(3500, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=None)
+  generate_sparse_head_heavy_tail_heavy_ooo_mid_for_multi_class(500, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=None)
+  generate_sparse_head_heavy_tail_heavy_ooo_mid_for_multi_class(2500, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=None)
+  generate_sparse_head_heavy_tail_heavy_ooo_mid_for_multi_class(3500, seq_size=THRESHOLD_SEQUENCE, single_sample_size=SINGLE_SAMPLE_SIZE_50, seq_pos=None)
 
   if args.include_50000:
     with open('data_no_sequence_50000_sample_number_50.csv', mode='w') as csv_file:
